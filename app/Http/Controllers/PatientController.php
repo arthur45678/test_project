@@ -8,10 +8,32 @@ use Illuminate\Http\Request;
 
 class PatientController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $patients = auth()->user()->patients()->with('diseases')->get();
-        return view('patients.index', compact('patients'));
+        $doctorId = auth()->id();
+        $diseases = Disease::orderBy('name')->get();
+
+        $patients = Patient::query()
+            ->where('doctor_id', $doctorId)
+            ->with('diseases')
+
+            // поиск по имени пациента
+            ->when($request->filled('patient'), function ($q) use ($request) {
+                $q->where('name', 'like', '%' . $request->patient . '%');
+            })
+
+            // фильтр по болезни (ПО ID)
+            ->when($request->filled('disease_id'), function ($q) use ($request) {
+                $q->whereHas('diseases', function ($d) use ($request) {
+                    $d->where('diseases.id', $request->disease_id);
+                });
+            })
+
+            ->orderBy('name')
+            ->paginate(15)
+            ->withQueryString();
+
+        return view('patients.index', compact('patients', 'diseases'));
     }
 
     public function create()
