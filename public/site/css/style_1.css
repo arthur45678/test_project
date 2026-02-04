@@ -1,0 +1,895 @@
+body{
+    font-family: PT Sans Narrow, sans-serif;
+}
+ul.models-list{
+    display: flex;
+}
+.models-list li{
+    margin: 0 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.quantity{
+    padding: 7px;
+    vertical-align: middle;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.redbutton{
+    background-color: #d9534f;
+    color: #ffffff;
+}
+.redbutton:hover{
+    background-color: #d8201b;
+    color: #ffffff;
+}
+.buttonGray:hover{
+    color: #ffffff!important;
+}
+
+
+/*Header shopping cart*/
+.right-menu{
+    width: 200px;
+}
+ul.right-menu li{
+    display: inline-block;
+}
+
+ul.right-menu li a{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 30px;
+    color: #282828;
+    display: block;
+    position: relative;
+
+  //  padding: 18px 5px 16px 5px;
+    line-height: 100%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 5px 5px 0 0;
+
+}
+
+
+/*end Header shopping cart*/
+
+
+/*Cart price*/
+/*.cart-section .cart-totals {
+    margin: 30px 0!important;
+    padding: 20px!important;
+    display: flex!important;
+    justify-content: space-between!important;
+    background: #F5F5F5!important;
+}
+.cart-section .cart-totals .cart-totals-left {
+    width: 50%!important;
+}
+.cart-section .cart-totals .cart-totals-right {
+    display: flex!important;
+    justify-content: space-between!important;
+    width: 35%!important;
+    text-align: right!important;
+}
+
+.cart-section .cart-totals .cart-totals-right {
+    display: flex!important;
+    justify-content: space-between!important;
+    width: 35%!important;
+    text-align: right!important;
+}
+.cart-section .cart-totals .cart-totals-right {
+    display: flex!important;
+    justify-content: space-between!important;
+    width: 35%!important;
+    text-align: right!important;
+}*/
+/*Cart price end*/
+
+
+/*Top-menu*/
+.stellarnav .has-sub{
+    background: transparent;
+
+    color: black;
+}
+
+/*Top-menu end*/
+
+
+#cat_accordion-1 ul {
+    padding-left: 15px;
+}
+
+.shopping_cart ul li{
+    margin-top: 15px;
+    display: inline-block;
+    padding-left: 7px;
+}
+
+.icon-c{
+    font-size: 25px;
+}
+
+.tags{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+/*Orders*/
+.my-orders .order-container {
+    margin-bottom: 64px;
+}
+.my-orders .order-header {
+    background: #f6f6f6;
+    border: 1px solid #ddd;
+    padding: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.my-orders .order-products {
+    background: white;
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 14px;
+}
+.my-orders .order-header-items {
+    display: flex;
+}
+.my-orders .order-header-items div {
+    margin-right: 14px;
+}
+.my-orders .order-product-item {
+    display: flex;
+    margin: 32px 0;
+}
+.my-orders .order-product-item img {
+    max-width: 140px;
+    margin-right: 24px;
+}
+
+/*end Orders*/
+
+
+
+.home-car-brands a{
+    font-size: 22px;
+    font-weight: 500;
+   color: #000000;
+}
+#content .module h3.modtitle{
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+
+.typeheader-7 .header-top{
+    background-color: #7ebc0a;
+}
+
+.stellarnav ul li {
+    padding: 0 10px;
+}
+
+.stellarnav ul a{
+    color: #fff;
+    font-size: 22px;
+}
+
+/*Header*/
+.top_wrap{
+    padding: 10px 0;
+    z-index: 0;
+}
+#top-search-form {
+    border: 5px solid #B7B6B6;
+}
+#header-search{
+    padding: 25px 0;
+
+    margin-left: 10px;
+    border: none;
+    font-size: 25px;
+
+}
+#top-search-form input[type=search]{
+    border: none;
+}
+
+#top-search-form input[type=search]::placeholder{
+    color: #1c606a;
+    font-size: 20px;
+    padding: 10px;
+}
+#top-search-form input[type=search]::-ms-input-placeholder { /* Microsoft Edge */
+    color: #1c606a;
+    font-size: 20px;
+    padding: 10px;
+ }
+#top-search-form button[type=submit]{
+    background: #B7B6B6;
+    border: none;
+    padding: 14px 23px;
+    color: #fff;
+}
+#top-search-form .glyphicon-search{
+    font-size: 20px;
+    color: #fff;
+}
+
+.phone-nomber{
+    font-size: 15px;
+    font-family: arial, Sans-Serif;
+    color: rgb(33, 37, 41);
+    padding: 0;
+}
+.ya-phone{
+    font-size: 22px;
+    color: #000;
+}
+.benefits {
+    font-size: 18px;
+    padding: 0;
+    text-align: center;
+    color: #000;
+}
+
+.benefits:last-child {
+    text-align: right;
+}
+
+.stellarnav  ul{
+    z-index: 2;
+}
+/*Header end*/
+
+.page-title{
+    color: #000000;
+}
+h1.catalog-title{
+    color: #000000;
+    font-size: 30px;
+}
+
+.indicator {
+    animation: 3s infinite indicator;
+    margin: 0;
+}
+
+@keyframes indicator {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.b-login-wrapper {
+    display: flex;
+}
+
+#cars .car {
+    display: inline-block;
+    vertical-align: middle;
+    width: 35px;
+    height: 29px;
+}
+
+
+
+
+/*Index Page*/
+#index-page #cars{
+    font-size: 20px;
+}
+#index-page .line-brand{
+    padding: 10px 10px;
+}
+#index-page #cars .car-desc {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.5em;
+    padding-left: .5em;
+}
+
+#index-page #cars .acura {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+
+    background-position: 1px -2px;
+}
+#index-page  #cars .acura {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: 1px -2px
+}
+
+#index-page  #cars .alfaromeo {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -33px -3px
+}
+
+#index-page  #cars .audi {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -64px -3px
+}
+
+#index-page  #cars .bentley {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -95px -3px
+}
+
+#index-page  #cars .bmw {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -126px -2px
+}
+
+#index-page  #cars .brilliance {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -161px -3px
+}
+
+#index-page  #cars .byd {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: 0px -35px
+}
+
+#index-page  #cars .cadillac {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -33px -35px
+}
+
+#index-page  #cars .changan {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -63px -35px
+}
+
+#index-page  #cars .chery {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -95px -35px
+}
+
+#index-page  #cars .chevrolet {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -126px -35px
+}
+
+#index-page  #cars .chrysler {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -159px -35px
+}
+
+#index-page  #cars .citroen {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: 0px -62px
+}
+
+#index-page  #cars .dacia {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -33px -62px
+}
+
+#index-page  #cars .daewoo {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -64px -62px
+}
+
+#index-page  #cars .daihatsu {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -95px -62px
+}
+
+#index-page  #cars .datsun {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -126px -62px
+}
+
+#index-page  #cars .dodge {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -159px -62px
+}
+
+#index-page  #cars .faw {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: 0px -91px
+}
+
+#index-page  #cars .ferrari {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -33px -91px
+}
+
+#index-page  #cars .fiat {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -63px -91px
+}
+
+#index-page  #cars .ford {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -95px -91px
+}
+
+#index-page  #cars .fordamerica {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -126px -91px
+}
+
+#index-page  #cars .gaz {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -159px -91px
+}
+
+#index-page  #cars .geely {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: 0px -120px
+}
+
+#index-page  #cars .gm {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -33px -120px
+}
+
+#index-page  #cars .greatwall {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -64px -120px
+}
+
+#index-page  #cars .haima {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -95px -120px
+}
+
+#index-page  #cars .haval {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -126px -120px
+}
+
+#index-page  #cars .honda {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -159px -120px
+}
+
+#index-page  #cars .hummer {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: 0px -150px
+}
+
+#index-page  #cars .hyundai {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -33px -150px
+}
+
+#index-page  #cars .infiniti {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -64px -150px
+}
+
+#index-page  #cars .irankhodro {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -95px -150px
+}
+
+#index-page  #cars .isuzu {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -126px -150px
+}
+
+#index-page  #cars .iveco {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -159px -150px
+}
+
+#index-page  #cars .jaguar {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: 0px -180px
+}
+
+#index-page  #cars .jeep {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -33px -180px
+}
+
+#index-page  #cars .kia {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -64px -180px
+}
+
+#index-page  #cars .ladaваз {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -95px -180px
+}
+
+#index-page  #cars .lancia {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -126px -180px
+}
+
+#index-page  #cars .landrover {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -159px -180px
+}
+
+#index-page  #cars .ldv {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: 0px -207px
+}
+
+#index-page  #cars .lexus {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -33px -207px
+}
+
+#index-page  #cars .lifan {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -64px -207px
+}
+
+#index-page  #cars .lincoln {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -95px -207px
+}
+
+#index-page  #cars .maserati {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -126px -207px
+}
+
+#index-page  #cars .maybach {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -159px -207px
+}
+
+#index-page  #cars .mazda {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: 0px -236px
+}
+
+#index-page  #cars .mercedes {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -33px -238px
+}
+
+#index-page  #cars .mini {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -64px -236px
+}
+
+#index-page  #cars .mitsubishi {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -95px -236px
+}
+
+#index-page  #cars .nissan {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -127px -238px
+}
+
+#index-page  #cars .opel {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -159px -236px
+}
+
+#index-page  #cars .peugeot {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: 0px -268px
+}
+
+#index-page  #cars .porsche {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -33px -268px
+}
+
+#index-page  #cars .ravon {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -64px -268px
+}
+
+#index-page  #cars .renault {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -96px -268px
+}
+
+#index-page  #cars .rollsroyce {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -126px -268px
+}
+
+#index-page  #cars .rover {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -159px -268px
+}
+
+#index-page  #cars .saab {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: 0px -297px
+}
+
+#index-page  #cars .seat {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -33px -297px
+}
+
+#index-page  #cars .skoda {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -64px -297px
+}
+
+#index-page  #cars .smart {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -95px -297px
+}
+
+#index-page  #cars .ssangyong {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -126px -297px
+}
+
+#index-page  #cars .subaru {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -159px -297px
+}
+
+#index-page  #cars .suzuki {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: 0px -327px
+}
+
+#index-page  #cars .tagaz {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -33px -327px
+}
+
+#index-page  #cars .toyota {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -64px -327px
+}
+
+#index-page  #cars .uaz {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -95px -327px
+}
+
+#index-page  #cars .vaz {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -126px -327px
+}
+
+#index-page  #cars .volvo {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -159px -327px
+}
+
+#index-page  #cars .vortex {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: 0px -357px
+}
+
+#index-page  #cars .vw {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -33px -357px
+}
+
+#index-page  #cars .zaz {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -64px -357px
+}
+
+#index-page  #cars .genesis {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -135px -357px
+}
+
+#index-page  #cars .vis {
+    background-image: url(../../imagesServe/logo-mark.jpg);
+    background-position: -97px -355px
+}
+
+/*end Index Page*/
+
+
+
+.sticky {
+    background: #7ebc0a;
+    width: 100%;
+    opacity: 1;
+    z-index: 2;
+}
+
+.fixed {
+    position: fixed;
+    top:0;
+}
+
+
+.home-dosta{
+    font-size: 30px;
+}
+.row-dark{
+    padding: 38px;
+}
+.home-shipping-title{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 25px;
+}
+
+
+/*Product  Related products slider*/
+
+
+   .related-prod-slider{
+
+   }
+   .prod-slider-column{
+       padding: 0 10px;
+   }
+   .prod-slider-name{
+       color: #000;
+       font-weight: 20px;
+       font-size: 20px;
+       text-align: center;
+       display: block;
+   }
+
+   .prod-slider-price{
+       text-align: center;
+       display: block;
+       font-size: 20px;
+       font-weight: 500;
+       color: #000000;
+   }
+
+  .related-prod-slider .slick-next{
+       position: absolute;
+       top: 202px;
+       left: 48%;
+      margin-right: 10px;
+   }
+
+  .related-prod-slider .slick-prev{
+       position: absolute;
+       top: 202px;
+       left: 52%;
+      margin-left: 56px;
+        z-index: 1;
+
+   }
+
+/* Related products slider end*/
+
+
+/*Search page*/
+.search table tr td.rate {
+    color: #f39c12;
+    line-height: 50px;
+}
+
+.search table tr:hover {
+    cursor: pointer;
+}
+
+.search table tr td.image {
+    width: 200px;
+}
+
+.search table tr td img {
+    width: 200px;
+}
+
+.search table tr td.rate {
+    color: #f39c12;
+    line-height: 50px;
+}
+
+.search table tr td.price {
+    font-size: 1.5em;
+    line-height: 50px;
+}
+
+.search #price1,
+.search #price2 {
+    display: inline;
+    font-weight: 600;
+}
+/*Search page end*/
+
+
+.mfp-close{
+/*    top: 0!important;
+    right: 0!important;*/
+    font-size: 55px!important;
+    color: green;
+}
+
+.mfp-close:hover{
+/*    top: 0!important;
+    right: 0!important;*/
+    font-size: 55px!important;
+    color: red;
+    cursor: pointer!important;
+}
+
+.stellarnav {
+    z-index: 1;
+}
+
+
+.pagination>.active>span {
+    z-index: 0;
+    background: #7ebc0a;
+    border-color: #7ebc0a;
+}
+
+#advanced_search_field-oo{
+    z-index: 0;
+}
+
+
+.about-us .about-title {
+    font-style: normal;
+}
+#content p {
+    font-size: 18px;
+    padding: 0;
+  //  text-align: right;
+    color: #000;
+}
+
+.panel-body p{
+    font-size: 18px;
+    padding: 0;
+//  text-align: right;
+    color: #000;
+}
+
+body h1, h2, h3, h4, h5, h6{
+    color: 000;
+}
+
+.breadcrumb{
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.form-horizontal ul li{
+    list-style: none;
+}
+
+.button-green{
+    background: #7ebc0a;
+    color: #fff;
+}
+.search-result-prod-name{
+    font-size: 25px;
+}
+
+
+.mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+
+    top: 42px;
+}
+
+
+.second_img img{
+    height: 200px;
+}
+
+
+
+#languagSwitcher .dropdown-menu{
+    position: absolute;
+}
